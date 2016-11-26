@@ -66,7 +66,7 @@
         </ol>
         <li class="outcome"><a href="#two">'Deal or No Deal' Windows Form Application</a></li>
         <ol>
-          <li><a href="#two_artifact1">Code Snippits</a></li>
+          <li><a href="#two_artifact1">Code Snippets</a></li>
           <li><a href="#two_artifact2">Gameplay Screenshots</a></li>
         </ol>
         <li class="outcome"><a href="#three">Website Redesign - chiptrap.com Responsive Overhaul</a></li>
@@ -82,7 +82,7 @@
         <li class="outcome"><a href="#five">Capstone Project - Student Response System</a></li>
         <ol>
           <li><a href="#five_artifact1">Project Overview</a></li>
-          <li><a href="#five_artifact2">Code Snippits</a></li>
+          <li><a href="#five_artifact2">Code Snippets</a></li>
           <ol>
             <li><a href="#sub1">Registration, validation, and error handling</a></li>
             <li><a href="#sub2">Password security and recovery</a></li>
@@ -145,12 +145,12 @@
       <p>I decided to challenge myself after learning the basics of C# and created this game using Visual Studio. I saw this independent project as a good challenge to work with not only Windows Forms and their GUI elements, but also Object Oriented concepts such as classes and inheritance.</p>
       
       <a id="two_artifact1"></a>
-      <h3 class="text-center">Code Snippits</h3>
+      <h3 class="text-center">Code Snippets</h3>
       <p>I made use of arrays and a class called Cases to insert dollar values into the cases. The cases are Windows Form picture boxes. A hash set of random numbers was used to distribute the winnings into the cases without worrying about duplicate values.</p>
       <a href="img/DoND_code_one.png" data-lightbox="DoND_code_one"><img src="img/DoND_code_one.png" alt="DoND Code" class="img-responsive"></a>
       <p>I implemented a switch statement to deal with the number of rounds. Since the number of cases a user selects is different every round, a switch was a perfect choice instead of a long nested “IF” chain.</p>
       <a href="img/DoND_code_two.png" data-lightbox="DoND_code_two"><img src="img/DoND_code_two.png" alt="DoND Code" class="img-responsive"></a>
-      <p>Most of the heavy lifting in this program is done when a user clicks on a case. The onClick click event handler was used to visually eliminate the case, the corresponding dollar amount, and set a ‘working value’ to the case that is used later on when determining the payouts/Banker’s offer. It also toggles the active state of the case to ‘FALSE’, making the case un-clickable.</p>
+      <p>Most of the heavy lifting in this program is done when a user clicks on a case. The onClick event handler was used to visually eliminate the case, the corresponding dollar amount, and set a ‘working value’ to the case that is used later on when determining the payouts/Banker’s offer. It also toggles the active state of the case to ‘FALSE’, making the case un-clickable.</p>
       <a href="img/DoND_code_two.png" data-lightbox="DoND_code_three"><img src="img/DoND_code_three.png" alt="DoND Code" class="img-responsive"></a>
       <p>A simple counter was used to limit the number of cases a user is able to select each round. Each case that is selected increases the counter by 1, and this is compared against the round number to determine the number of allowed selections.</p>
       <a href="img/DoND_code_four.png" data-lightbox="DoND_code_four"><img src="img/DoND_code_four.png" alt="DoND Code" class="img-responsive"></a>
@@ -243,13 +243,13 @@
       
       <a id="five_artifact1"></a>
       <h3 class="text-center">Project Overview</h3>
-      <p>Myself and two other students formed a group to work on our final Capstone project for graduation. We were tasked with developing a "Student Response System" for classrooms. The application would allow Instructors to create question sets that are displayed on the class projector and mirrored to a students screen when they are logged in to the class.</p>
+      <p>Myself and two other students formed a group to work on our final Capstone project for graduation. We were tasked with developing a "Student Response System" for classrooms. The application would allow Instructors to create question sets that are displayed on the class projector and mirrored to a student's screen when they are logged in to the class.</p>
       <p>The application allows for real-time polling of the student's responses. The advantage to this system over the standard model of the instructor standing in front of the students and asking them questions is that all students get the opportunity to "answer" the question and for the instructor to gain advanced insight into the overall comprehension level of the class.</p>
       <p>The workload was split evenly among the group members, with me being in charge of user registration, form and error handling, password security and recovery, database construction, and secure login to the appropriate "digital classroom".</p>
       <br>
       
       <a id="five_artifact2"></a>
-      <h2 class="text-center">Code Snippits</h2>
+      <h2 class="text-center">Code Snippets</h2>
       <p>Below are snippets of code relating to my portion of the project. This project is still in development.</p>
       <br>
       
@@ -287,7 +287,7 @@
       <a href="img/timeHash.png" data-lightbox="hash"><img src="img/timeHash.png" alt="Time hash code" class="img-responsive"></a>
       <p>An AJAX call is then made every 20 seconds to grab the time hash data and display it.</p>
       <a href="img/AJAX.png" data-lightbox="ajax"><img src="img/AJAX.png" alt="AJAX code" class="img-responsive"></a>
-      <p>The time hash code can be run on both the instructor and the students machine and the student will only need to check against an <code>md5()</code> of the server time, instead of something only the instructor has access to.</p>
+      <p>The time hash code can be run on both the instructor and the student's machine and the student will only need to check against an <code>md5()</code> of the server time, instead of something only the instructor has access to.</p>
       <h4 class="text-center">GIF of the time hash in action!</h4>
       <img src="img/timeHash.gif" alt="" class="img-responsive">
     </div>
