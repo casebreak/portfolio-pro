@@ -1,0 +1,70 @@
+body {
+  background-image: url(img/subtle_zebra_3d_@2X.png);
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-color: transparent;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Raleway'; 
+  font-weight: 800;
+}
+
+.outcome {
+  font-size: 16px; 
+}
+
+.spacer {
+  padding-top: 100px;
+}
+
+.jumbotron p, ul {
+  font-size: 18px;
+  font-family: 'Merriweather';
+}
+
+.top-link {
+  position: fixed;
+  bottom: 2%;
+  right: 10px; 
+  font-size: 20px;
+}
+
+.img-responsive {
+  margin: 0 auto;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#index {
+  background-color: #DFE2CF;
+}
+
+#index li {
+  font-size: 20px;
+}
+
+#outcome1 {
+  background-color: #FCB97D;
+}
+
+#outcome2 {
+  background-color: #C4B7CB;
+}
+
+#outcome3 {
+  background-color: #BFEDEF;
+}
+
+#outcome4 {
+  background-color: #98E2C6;
+}
+
+#outcome5 {
+  background-color: #CDB2AB;
+}
+
+code {
+  font-size: 12px;
+}

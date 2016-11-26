@@ -11,8 +11,9 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Merriweather+Sans|Raleway" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="css/styles.css">
   <link rel="stylesheet" href="css/glyphicons.css">
+  <link href="css/lightbox.min.css" rel="stylesheet">
   <title>Portfolio</title>
   
   <script>
@@ -48,45 +49,46 @@
   <a href="#top" title="Back to Top" class="top-link">Back to Top <span class="glyphicons glyphicons-chevron-up"></span></a>
   
   <a id="top"></a>
-  <h1 class="text-center" style="padding-top: 20px;">Portfolio</h1>
+  <h1 class="text-center">Portfolio</h1>
 
   <div class="container">
     
     <h3 class="text-center">Scott Duncan</h3>
-    <h3 class="text-center">A collection of my work at Dunwoody</h3>
+    <h3 class="text-center"><a href="https://github.com/casebreak">GitHub Account</a></h3>
     <br>
     <div class="jumbotron" id="index">
-      <h3><span style="font-weight: bold; font-size: 22px;">Contents</span> - Outcomes, Artifacts and Reflections</h3>
+      <h3><span style="font-weight: bold; font-size: 22px;">Contents</span></h3>
       <ol>
-        <li class="outcome"><a href="#one">Evaluate the organizational structure of a business in order to facilitate data management.</a></li>
+        <li class="outcome"><a href="#one">Website Redesign - NancyWilsonCounseling.com WordPress Installation</a></li>
         <ol>
-          <li><a href="#one_artifact1">Artifact 1</a></li>
-          <li><a href="#one_artifact2">Artifact 2</a></li>
-          <li><a href="#one_reflection">Reflection</a></li>
+          <li><a href="#one_artifact1">Original Site</a></li>
+          <li><a href="#one_artifact2">Updated Site</a></li>
         </ol>
-        <li class="outcome"><a href="#two">Illustrate networks used for the Internet.</a></li>
+        <li class="outcome"><a href="#two">'Deal or No Deal' Windows Form Application</a></li>
         <ol>
-          <li><a href="#two_artifact1">Artifact 1</a></li>
-          <li><a href="#two_artifact2">Artifact 2</a></li>
-          <li><a href="#two_reflection">Reflection</a></li>
+          <li><a href="#two_artifact1">Code Snippits</a></li>
+          <li><a href="#two_artifact2">Gameplay Screenshots</a></li>
         </ol>
-        <li class="outcome"><a href="#three">Determine that a database is properly structured.</a></li>
+        <li class="outcome"><a href="#three">Website Redesign - chiptrap.com Responsive Overhaul</a></li>
         <ol>
-          <li><a href="#three_artifact1">Artifact 1</a></li>
-          <li><a href="#three_artifact2">Artifact 2</a></li>
-          <li><a href="#three_reflection">Reflection</a></li>
+          <li><a href="#three_artifact1">Original Site</a></li>
+          <li><a href="#three_artifact2">Updated Site</a></li>
         </ol>
-        <li class="outcome"><a href="#four">Create web solutions using a variety of programming languages.</a></li>
+        <li class="outcome"><a href="#four">Web Application - LifeTracker</a></li>
         <ol>
-          <li><a href="#four_artifact1">Artifact 1</a></li>
-          <li><a href="#four_artifact2">Artifact 2</a></li>
-          <li><a href="#four_reflection">Reflection</a></li>
+          <li><a href="#four_artifact1">Project Overview</a></li>
+          <li><a href="#four_artifact2">Project Outcome and Reflection</a></li>
         </ol>
-        <li class="outcome"><a href="#five">Articulate development solutions to peers and supervisors.</a></li>
+        <li class="outcome"><a href="#five">Capstone Project - Student Response System</a></li>
         <ol>
-          <li><a href="#five_artifact1">Artifact 1</a></li>
-          <li><a href="#five_artifact2">Artifact 2</a></li>
-          <li><a href="#five_reflection">Reflection</a></li>
+          <li><a href="#five_artifact1">Project Overview</a></li>
+          <li><a href="#five_artifact2">Code Snippits</a></li>
+          <ol>
+            <li><a href="#sub1">Registration, validation, and error handling</a></li>
+            <li><a href="#sub2">Password security and recovery</a></li>
+            <li><a href="#sub3">Database Construction</a></li>
+            <li><a href="#sub4">Secure Classroom Login</a></li>
+          </ol>
         </ol>
       </ol>
     </div>
@@ -98,164 +100,200 @@
     <a id="one" id="one"></a>
     <div class="jumbotron" id="outcome1">
      
-      <h1 class="text-center">Outcome One:</h1>
-      <h3 class="text-center">Evaluate the organizational structure of a business in order to facilitate data management.</h3>
+      <h1 class="text-center">Nancy Wilson Counseling</h1>
+      <h3 class="text-center">A Website Redesign with Wordpress</h3>
       <br>
       
       <a id="one_artifact1"></a>
-      <h3 class="text-center">Artifact 1: "Agile" Activity Diagram</h3>   
-      <img src="img/activity_diagram.png" alt="Activity Diagram" class="img-responsive">  
-      <p>This “Activity Diagram” shows the process and hierarchy of the flow of how a development company might handle and process a customer, or client, request. Each column represents a different branch of the company and shows the flow of responsibility from one department to another and how they relate to each other.</p>
-      <p>As you can see, a client submits a request for a project. Initially, the design team crafts a rough idea of how the project should look. If the “order” is rejected by the client, the Project Design Team starts the process over until the offer is “accepted”. The project is then sent to the Front Side Development Team and the Database/Backside Development Team. The two teams then work together to ensure their structures and ideas are merge-able.</p>
-      <p>After a final product is developed, it is sent to a Maintenance group that would do the beta/bug testing. The product is then shipped out to the customer where they would find the appropriate avenue for distribution, be it physically or digitally.</p>
+      <h3 class="text-center">Original Site</h3>   
+      <a href="img/nwc_old.png" data-lightbox="nwc_old"><img src="img/nwc_old.png" alt="Nancy Wilson Counseling Old Site" class="img-responsive"></a>
+      <p>A client came to me with a request to update their website and bring it into the modern age. In discussing the project, the client desired the ability to make small alterations to text and photos. This requirement was important because of the difficulty she faced in making changes to the previously built site.</p>
+      <p>I suggested a WordPress installation that would allow her to make the changes she needed with little to no coding knowledge. It was important for the client to keep a the same functionality of the site but add the bells and whistles that are present on modern sites. Borrowing the same color palette and text found on the original, I modified a clean design template.</p>
       <br>
       
       <a id="one_artifact2"></a>
-      <h3 class="text-center">Artifact 2: "Agile" Use Case Diagram</h3>   
-      <img src="img/usecase_diagram.png" alt="Usecase Diagram" class="img-responsive">
-      <p>This is a “Use Case Diagram” created for a faux company Called Indicia Data (ID). ID is a Data Solutions company that gets hired by businesses to manage all of their digital data.</p>
-      <p>The diagram shows a user or a client hiring ID to backup and manage their data. They gain access to an ID controlled web portal allowing the client to have rough overview access to the process that ID will be working on for this client. ID also uses this web portal to communicate with the client.</p>
-      <p>The web portal syncs with the remote database set up for the client, which ID also manages. ID then builds on site backups for all of the client’s data where backups are made for redundancy and in turn, syncs back to the remote database. The web portal continues to act as “home base” for communications between ID and the client.</p>
-      <br>
+      <h3 class="text-center">Updated site: <a href="http://www.nancywilsoncounseling.com/">http://www.nancywilsoncounseling.com/</a></h3>
       
-      <a id="one_reflection"></a>
-      <h3 class="text-center" style="font-weight: bold;">Outcome 1 Reflection</h3>
-      <p>These examples were taken from my Business Architecture class which focused on the structure and process of what a business goes through to ensure customer satisfaction in relation to a Database Company. These activities and projects were an excellent way to visualize and conceptualize how this process would work in a real world scenario.</p>
-      <p>I learned how many steps and inner-processes it takes to implement a fully functional, working, and effective business model of the workflow that a company would need to implement to ensure that a client’s needs were met. Each client needs their own specialized plan for their specific needs. The diagrams not only help the company with their workflow, but also can be presented to the client to help articulate the process that goes on behind the scenes. This keeps the client “in the loop” and gives them piece of mind that the company they have hired has a plan and an end goal for their project.</p>
-      <p>Every team, including each member of that team, has a specific job and “order of operations” to ensure the project gets developed in a timely manner while keeping the client in the loop. This process taught me that each team member is a necessary cog in the machine to bring an idea to reality. Work is divided among team members who all communicate with each other and ultimately release a suitable product for the client. Each step can be reviewed and edited as many times as is necessary to satisfy the client and their needs. A client can be an individual or a company.</p>
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="http://www.nancywilsoncounseling.com/"></iframe>
+      </div>  
+      <br> 
+         
+      <h3 class="text-center">Features</h3>
+      <ul>
+        <li>Modernized all text, images, and overall layout of the site.</li>
+        <li>Implemented the use of Child Themes for making edits to the source code of the chosen theme.</li>
+        <li>Added a contact form, enabling potential and existing clients to send a message outside of an email client.</li>
+        <li>Added a Blog section to allow the client to share interesting articles and write custom posts.</li>
+        <li>Archived the old site and uploaded the update on the client's web server.</li>
+      </ul>
+      <br>
        
     </div>
     
     <div class="spacer"></div>
+    <div class="spacer"></div>
+    <div class="spacer"></div>
     
     <a id="two"></a>
     <div class="jumbotron" id="outcome2">
-      <h1 class="text-center">Outcome Two:</h1>
-      <h3 class="text-center">Evaluate the organizational structure of a business in order to facilitate data management.</h3>  
+      <h1 class="text-center">'Deal or No Deal' Windows Form Application</h1>
+      <h3 class="text-center">A game developed in Visual Studio and C#</h3>
+      <h4 class="text-center"><a href="https://github.com/casebreak/DoND">View Project on GitHub</a></h4>  
       <br>
       
+      <p>I decided to challenge myself after learning the basics of C# and created this game using Visual Studio. I saw this independent project as a good challenge to work with not only Windows Forms and their GUI elements, but also Object Oriented concepts such as classes and inheritance.</p>
+      
       <a id="two_artifact1"></a>
-      <h3 class="text-center">Artifact 1: Network Diagram</h3> 
-      <img src="img/networkDiagram.jpg" alt="Network Diagram" class="img-responsive">  
-      <p>The above diagram is the visual configuration of a local network that I setup through the use of virtual machines to simulate how one would setup an actual network for a small business or startup.</p> 
-      <p>Below are some of the configuration settings that were used to make records of settings and configurations used by the network so that they could be redone in case of a mishap in the network. Proper documentation is always a good thing to have for not only yourself, but for someone else coming into your position later on.</p>
+      <h3 class="text-center">Code Snippits</h3>
+      <p>I made use of arrays and a class called Cases to insert dollar values into the cases. The cases are Windows Form picture boxes. A hash set of random numbers was used to distribute the winnings into the cases without worrying about duplicate values.</p>implament
+      <a href="img/DoND_code_one.png" data-lightbox="DoND_code_one"><img src="img/DoND_code_one.png" alt="DoND Code" class="img-responsive"></a>
+      <p>I implemented a switch statement to deal with the number of rounds. Since the number of cases a user selects is different every round, a switch was a perfect choice instead of a long nested “IF” chain.</p>
+      <a href="img/DoND_code_two.png" data-lightbox="DoND_code_two"><img src="img/DoND_code_two.png" alt="DoND Code" class="img-responsive"></a>
+      <p>Most of the heavy lifting in this program is done when a user clicks on a case. The onClick click event handler was used to visually eliminate the case, the corresponding dollar amount, and set a ‘working value’ to the case that is used later on when determining the payouts/Banker’s offer. It also toggles the active state of the case to ‘FALSE’, making the case un-clickable.</p>
+      <a href="img/DoND_code_two.png" data-lightbox="DoND_code_three"><img src="img/DoND_code_three.png" alt="DoND Code" class="img-responsive"></a>
+      <p>A simple counter was used to limit the number of cases a user is able to select each round. Each case that is selected increases the counter by 1, and this is compared against the round number to determine the number of allowed selections.</p>
+      <a href="img/DoND_code_four.png" data-lightbox="DoND_code_four"><img src="img/DoND_code_four.png" alt="DoND Code" class="img-responsive"></a>
+      <p>The Banker’s offer is a simple weighted average equation. The average of the cases is determined and then an incentive percentage is factored in based on the current round. Earlier in the program, when a user selects a case, the value is changed to ‘0’ to ensure that it is not accounted for in the Banker’s offer.</p>
+      <a href="img/DoND_code_five.png" data-lightbox="DoND_code_five"><img src="img/DoND_code_five.png" alt="DoND Code" class="img-responsive"></a>
+      <p>New forms are called when appropriate, passing all needed information to the accepting form. A menu bar was added for users to exit the program or launch a ‘Help’ menu.</p>
+      <a href="img/DoND_code_six.png" data-lightbox="DoND_code_six"><img src="img/DoND_code_six.png" alt="DoND Code" class="img-responsive">
+      <a href="img/DoND_code_seven.png" data-lightbox="DoND_code_seven"><img src="img/DoND_code_seven.png" alt="DoND Code" class="img-responsive">
+      <p>Here is the code for the class file 'Cases'</p>
+      <a href="img/DoND_code_eight.png" data-lightbox="DoND_code_eight"><img src="img/DoND_code_eight.png" alt="DoND Code" class="img-responsive">
       <br>  
       
       <a id="two_artifact2"></a>
-      <h3 class="text-center">Artifact 2: Configuration Settings</h3> 
-      <img src="img/DHCPconfig.png" alt="DHCP Configuration" class="img-responsive"> 
+      <h3 class="text-center">Gameplay Screenshots</h3>  
+      <a href="img/DoND_screen1.png" data-lightbox="dond1"><img src="img/DoND_screen1.png" alt="DoND ScreenShot" class="img-responsive"></a>
+        <a href="img/DoND_screen1.png" data-lightbox="dond2"><img src="img/DoND_screen2.png" alt="DoND ScreenShot" class="img-responsive"></a>
+        <a href="img/DoND_screen1.png" data-lightbox="dond3"><img src="img/DoND_screen3.png" alt="DoND ScreenShot" class="img-responsive"></a>
+        <a href="img/DoND_screen1.png" data-lightbox="dond4"><img src="img/DoND_screen4.png" alt="DoND ScreenShot" class="img-responsive"></a>
       <br>
-      
-      <a id="two_reflection"></a>
-      <h3 class="text-center" style="font-weight: bold;">Outcome 2 Reflection</h3>
-      <p>I learned a great deal from this intense project. It gave me a great sense of pride to build a local network from the ground up. Not only did I learn how to do it, but I have careful documentation in case I ever need to do it again. I learned about all of the steps necessary to get a business up and running on the internet, and in the process, learned about each piece of a network, from the hardware, to the firewall, to the software responsible for tying it all together. Meticulous configuration details ensured that the network operated cleanly and efficiently.</p> 
-      <p>Although I got frustrated at times, the end result when everything worked was a wonderful feeling. Before this activity, I didn’t know how important all of these pieces were to the overall “network puzzle”, but now I have a much greater understanding of how a local network is set up and how it should function.</p>
     </div>
     
+    <div class="spacer"></div>
+    <div class="spacer"></div>
     <div class="spacer"></div>
     
     <a id="three"></a>
     <div class="jumbotron" id="outcome3">
-      <h1 class="text-center">Outcome Three:</h1>
-      <h3 class="text-center">Determine that a Database is Properly Structured.</h3>  
+      <h1 class="text-center">Chip-Trap</h1>
+      <h3 class="text-center">Website Redesign and Responsive Overhaul</h3>  
       <br> 
       
       <a id="three_artifact1"></a>
-      <h3 class="text-center">Artifact 1: Data Normalization</h3>
-      <p>Often times when dealing with raw data, you are given flat file documents like Excel spreadsheets or other forms of poorly organized data. The job of a good database designer is to take these documents and perform what is called Data Normalization. There are several steps to taking the data you see below and turning into a visual representation of what tables and columns you will need when it comes to constructing the database.</p>
-      <img src="img/normalization.png" alt="First Normal Form" class="img-responsive">
-      <p>Through the normalization process, I learned how to identify redundant data, ensure that all data had a proper home, and how to identify the key fields of what would become the database. This is a good example of how a company can come to you with a set of raw, unorganized data with the desire to transform it into a Relational Database and the steps you would take to make that happen for them.</p>
-      <p>With normalization, I transformed the above data set into a fully normalized visual representation of what the database would look like. An example of that can be found below. All of the data redundancies have been removed and the future database tables have been named and ordered. This process makes it simple to take this data, enter it in a database, and ensure that it is properly structured.</p>
-      <img src="img/3rdnormalForm.png" alt="Third Normal Form" class="img-responsive">
+      <h3 class="text-center">Original Site: <a href="http://chiptrap.com/">http://chiptrap.com/</a></h3>
+      <a href="img/chipTrap_oldSite.png" data-lightbox="ctoldsite"><img src="img/chipTrap_oldSite.png" alt="Chip Trap Original Site" class="img-responsive"></a>
+      <p>I took a request from a client to overhaul their existing outdated static website. The original site was built-in Microsoft Front Page circa the early 2000’s. The website needed a lot of work. I implemented the responsive features through the use of Twitter Bootstrap. I also implemented a contact form to send email about product inquiries.</p>
+      <p>The client wanted to keep the original feel of the website intact by using the same color scheme, but the aesthetics were in need of a modern feel. Bootstrap wells and panels provided the look and feel the client was going for with minimal adjustments to the already robust CSS library. The logo was converted to a vector .svg to enhance readability at all screen resolutions.</p>
       <br>
       
       <a id="three_artifact2"></a>
-      <h3 class="text-center">Artifact 2: Database Planning: Initial Layout Sketch</h3>
-      <img src="img/databaseSketch.png" alt="Database Sketch" class="img-responsive">
-      <p>This rough sketch of a database was used for my group’s final capstone project for an online web application called a “Student Response System”. The sketch shows the tables that will be implemented into the database, along with the columns in each table, and the data types associated with each field/column. Stars next to certain columns indicate that that column as a “Primary Key” in the table. “FK” next to a column indicates that column is used as a “Foreign Key” in that table, which is a primary key on another table. This is the basis of a Relational Database Management System.</p>
-      <h3 class="text-center">Implementation of the Initial Plan and Structure</h3>
-      <img src="img/initialPlan.png" alt="Initital Database Structure" class="img-responsive">
-      <p>This image shows the tables built in a MySQL Database using phpMyAdmin. The three tables initially planned for have been created.</p>
-      <h3 class="text-center">'Users' Table</h3>
-      <img src="img/usersTable.png" alt="Users Table" class="img-responsive">
-      <p>This image shows the structure of the Users table. You can see the datatypes and limitations have been implemented into the live database, with ‘userID’ being the Primary Key.</p>
-      <h3 class="text-center">'Quiz' Table</h3>
-      <img src="img/quizTable.png" alt="Quiz Table" class="img-responsive">
-      <p>This image shows the structure of the Quiz table, with ‘quizID’ being the Primary Key. A Foreign Key Restraint was set up on the ‘userID’ field to relate it to the userID field on the ‘Users’ table.</p>
-      <h3 class="text-center">'Question' Table</h3>
-      <img src="img/questionTable.png" alt="Quiz Table" class="img-responsive">
-      <p>This image shows the Question table, with ‘questionID’ being declared as the Primary Key. A Foreign Key Restraint was set up on the ‘quizID’ field to relate it to the quizID field on the ‘Quiz’ table.</p>
-      <br>
+      <h3 class="text-center">Updated Site: <a href="http://shop-products.machiningsolutions.net/">http://shop-products.machiningsolutions.net/</a></h3>
       
-      <a id="three_reflection"></a>
-      <h3 class="text-center" style="font-weight: bold;">Outcome 3 Reflection</h3>
-      <p>The process of structuring a database can be a tedious, yet vital step in getting a database up and running for a company or website. The process starts with normalization and ends with the actual implementation of the data and ideas built during the planning stage into a live, functional relational database.</p>
-      <p>Through this multi-step process, I learned how data within the tables relates to each other, and how important it is to set up the appropriate indexes and key restraints within the database. The true power in a RDBMS comes from joining fields together so that you can create unique and meaningful queries between all the sets of data. I’ve learned that a strong, properly structured database is essential to any company or web service operating in an efficient way. Online stores, data driven websites, and even WordPress installations all depend on these databases to function and serve their customers.</p>
+      <div class="embed-responsive embed-responsive-4by3">
+        <iframe class="embed-responsive-item" src="http://shop-products.machiningsolutions.net/" height="790"></iframe>
+      </div> 
     </div>
     
+    <div class="spacer"></div>
+    <div class="spacer"></div>
     <div class="spacer"></div>
     
     <a id="four"></a>
     <div class="jumbotron" id="outcome4">
-      <h1 class="text-center">Outcome Four:</h1>
-      <h3 class="text-center">Create Web Solutions Using a Variety of Programming Languages</h3>
+      <h1 class="text-center">Web Application</h1>
+      <h3 class="text-center">LifeTracker: <a href="http://lifetracker.case-break.com/">http://lifetracker.case-break.com/</a></h3>
+      <h4 class="text-center"><a href="https://github.com/casebreak/LifeTracker">View Project on GitHub</a></h4>
       <br>
    
       <a id="four_artifact1"></a>
-      <h3 class="text-center">Artifact 1: HTML[5] and CSS[3]</h3>
-      <p>HTML and CSS are some of the most basic, yet most essential programming ‘languages’ found in the Web Programming field. They form the building blocks for all web pages found on the internet. HTML and CSS are also used to format rich text email messages you receive every day. Below is an example of basic HTML and how it appears on the web.</p>
-      <img src="img/htmlCode.png" alt="HTML Code" class="img-responsive">
-      <img src="img/chiptrapHTMLonly.png" alt="ChipTrap HTML only" class="img-responsive">
-      <p>Figure 1 shows a sample of basic HTML code. Figure 2 shows the output of that code. As you can see, the output of the code appears to be very simplistic and relatively ‘boring’ according to today’s web standards. This is where the power of CSS comes in. CSS allows you to set rules for HTML elements and how they appear on the page, giving style and substance to an otherwise plain web site. Below is an example of some CSS code and how it transforms the website in Figure 2 into a richer, more appealing website.</p>
-      <img src="img/cssCode.png" alt="CSS Code" class="img-responsive">
-      <img src="img/afterCSS.png" alt="After CSS is Applied" class="img-responsive">
-      <p>As you can see, CSS adds all of the “character” and feel to a website. It is essential in the modern web era to ensure your CSS keeps up with the current web trends and suits the desires and needs of your clients. Without CSS, you’re left with something like Figure 2.</p>
+      <h3 class="text-center">Project Overview</h3>
+      <p>I set out to build a simple web application to help users track various metrics of their lives in order to track the things that account for having a "good day". The application was built using PHP and Bootstrap with a MySQL Database.</p>
+      <p>Using metrics such as hours of sleep, proper diet, exercise and goal progress/completion, the application kept track of entries and allowed users to query various data sets based on their input. A general "Notes" section was also added for users to utilize as a mini daily journal to write whatever they please about their day.</p>
+      <h4 class="text-center">Entry Form</h4>
+      <a href="img/LifeTracker_entry.png" data-lightbox="lt1"><img src="img/LifeTracker_entry.png" alt="LifeTracker Entry" class="img-responsive"></a>
+      <h4 class="text-center">Analyze Data</h4>
+      <a href="img/lifeTracker_analyze.png" data-lightbox="lt2"><img src="img/lifeTracker_analyze.png" alt="LifeTracker Analyze" class="img-responsive"></a>
+      <p>Search and sort functionality was also implemented to allow users to search for keywords in their notes.</p>
+      <a href="img/lifeTracker_search.png" data-lightbox="lt3"><img src="img/lifeTracker_search.png" alt="LifeTracker Search" class="img-responsive"></a>
+      <p>User records are displayed in a responsive table with labels and meaningful color coordination allowing for "at a glance" review. Pagination was implemented for better single page readability.</p>
+      <h4 class="text-center">Display Records</h4>
+      <a href="img/lifeTracker_records.png" data-lightbox="lt4"><img src="img/lifeTracker_records.png" alt="LifeTracker Records" class="img-responsive"></a>a>
       <br>
       
       <a id="four_artifact2"></a>
-      <h3 class="text-center">Artifact 2: PHP</h3>
-      <p>PHP is a server-side scripting language enabling you to create powerful, dynamic web pages and applications that work seamlessly with HTML. Users can interact with the webpage in ways that simply are not possible with other languages, and it allows you to collect and store information about the user and the web page that bring about a rich user friendly environment. I’ve included two examples of PHP code and how it appears when displayed on the web.</p>
-      <img src="img/phpCode.png" alt="PHP Code Snippit" class="img-responsive">
-      <img src="img/phpSite.png" alt="PHP Code Snippit" class="img-responsive">
-      <p>PHP seamlessly allows you to connect with databases allowing for user registration forms and dynamic content. It is very powerful and even makes use of Object Orient concepts to create truly powerful and interactive web pages.</p>
-      <br>
-      
-      <a id="four_reflection"></a>
-      <h3 class="text-center" style="font-weight: bold;">Outcome 4 Reflection</h3>
-      <p>Throughout my programming classes, I’ve learned how every programming language has a purpose, and some of them do some things better than others. It’s all about finding the right tool for the job. I have that some languages, such as Python, are great for scripting and controlling physical devices like digital clocks, whereas others like C++ and C# can be dynamic and near limitless, allowing you to create video games and rich applications that many people use on a regular basis. Discovering and using new programming languages has kept me motivated and excited to move into the programming field.</p>
+      <h3 class="text-center">Project Outcome and Reflection</h3>
+      <p>While the application is still an ongoing personal project, the beta test results led me to rethink the direction of the project. Users simply were not using the app. Feedback showed that users desired the ability to enter their own custom metrics to personalize the application for their needs. Users also stated they would benefit from a reminder to log their entries every day.</p>
+      <p>Future plans for this project include custom metrics and creating a native mobile application that will assist in sending daily reminders via notifications.</p>
+      <p>I learned a lot from the process of creating and releasing this application. I learned that sometimes the best feedback you get is when you get no feedback at all. I learned that listening to users and their suggestions are what drives a project like this to success. As a developer, it is my job to cater to the audience using the product, and not what I think should universally apply to all users.</p>
     </div>
     
+    <div class="spacer"></div>
+    <div class="spacer"></div>
     <div class="spacer"></div>
     
     <a id="five"></a>
     <div class="jumbotron" id="outcome5">
-      <h1 class="text-center">Outcome Five:</h1>
-      <h3 class="text-center">Articulate development solutions to peers and supervisors.</h3>
+      <h1 class="text-center">Capstone Project</h1>
+      <h3 class="text-center">Student Response System</h3>
       <br>
       
       <a id="five_artifact1"></a>
-      <h3 class="text-center">Artifact 1: Agile Development and User Stories</h3>
-      <p>Agile development is a design philosophy that involves a multi-step repeatable process of gathering input from potential users of your product or service, preparing a backlog of tasks to accomplish, and setting small, achievable goals that you present on a regular basis called “sprints”. This process allows the development team to always have a ‘working’ product to show the client after each sprint phase.</p>
-      <p>In my capstone project, my team has been using agile development to develop our web application.</p>
-      <img src="img/userStories.png" alt="User Stories" class="img-responsive">
-      <p>In Figure 1, you can see an example of a user story. This is the first step in the agile process. It involves collecting a list of “requirements” and desired outcomes for each user of your product. They are collected in story format to ensure the developers can accomplish not only a specific task, but achieve the overall desire of what a user is looking for from their product.</p>
+      <h3 class="text-center">Project Overview</h3>
+      <p>Myself and two other students formed a group to work on our final Capstone project for graduation. We were tasked with developing a "Student Response System" for classrooms. The application would allow Instructors to create question sets that are displayed on the class projector and mirrored to a students screen when they are logged in to the class.</p>
+      <p>The application allows for real-time polling of the student's responses. The advantage to this system over the standard model of the instructor standing in front of the students and asking them questions is that all students get the opportunity to "answer" the question and for the instructor to gain advanced insight into the overall comprehension level of the class.</p>
+      <p>The workload was split evenly among the group members, with me being in charge of user registration, form and error handling, password security and recovery, database construction, and secure login to the appropriate "digital classroom".</p>
       <br>
       
       <a id="five_artifact2"></a>
-      <h3 class="text-center">Artifact 2: Agile Development and Feature Backlog</h3>
-      <p>A feature backlog is a list of features that the client and developers want to implement in their product. This is where you make note of features that you wish to build and also a place you can make not of potential pitfalls and ask questions about what features are necessary or optional. It sets the pace for the development cycle and works as an ongoing “to do” list.</p>
-      <img src="img/featureBacklog.png" alt="Feature Backlog" class="img-responsive">
-      <p>Figure 2 lists a backlog we have used for one portion of our project. It lists the features we wish to implement and is an ongoing process of checking with the client and editing the requirements that need to be built into the project. Every aspect of the project can have a backlog, and an overarching backlog is formed in the end to ensure all features have been implemented.</p>
+      <h2 class="text-center">Code Snippits</h2>
+      <p>Below are snippets of code relating to my portion of the project. This project is still in development.</p>
       <br>
       
-      <a id="five_reflection"></a>
-      <h3 class="text-center" style="font-weight: bold;">Outcome 5 Reflection</h3>
-      <p>The process of agile development has taught me how to not only plan a project, but how to gather relevant information about the audience that will be using the product. It is difficult to get out of your own “developer” thought process while building an application, and this style of development allows you to connect with your client in unique ways and to constantly keep them up to date with the latest iterations. This allows for constant feedback from your client, enabling you to explain and articulate the development goals in a way that the client can understand because they always have a working copy of each iteration after each sprint is concluded. It eliminates the amount of “developer speak” that takes place between developer and client.</p>
-      <p>I have learned that the process of agile development keeps you close to your client while ultimately achieving your goals as a developer.</p>
+      <a id="sub1"></a>
+      <h3 class="text-center">Registration, validation, and error handling</h3>
+      <p>This is one of the validation functions used to validate a user's email address. The function verifies the email entered against a regular expression and also queries the database to ensure the email is unique.</p>
+      <a href="img/capstone1.png" data-lightbox="cap1"><img src="img/capstone1.png" alt="Valid Email Function" class="img-responsive"></a>
+      <p>If the email is already found in the database, an error message is displayed to the user.</p>
+      <a href="img/capstone4.png" data-lightbox="cap2"><img src="img/capstone4.png" alt="Error Messages" class="img-responsive"></a>
+      <p>Upon successful entry in the registration form, the user is entered into the database using this line of SQL code. PDO connections were utilized with parameterized queries for security.</p>
+      <a href="img/capstone2.png" data-lightbox="cap3"><img src="img/capstone2.png" alt="SQL Code" class="img-responsive"></a>
+      <br>
+      
+      <a id="sub2"></a>
+      <h3 class="text-center">Password security and recovery</h3>
+      <p>Instead of using <code>md5()</code> hashing functions for passwords, I opted to go for the more secure <code>password_hash($string, PASSWORD_DEFAULT)</code> function. Passwords are then verified using the <code>password_verify()</code> function.</p>
+      <p>Password recovery is done through email. A user enters an email and a token is generated by running the server time through <code>md5()</code> and salting it with the user's username.</p>
+      <a href="img/recovery1.png" data-lightbox="rec1"><img src="img/recovery1.png" alt="Password Token" class="img-responsive"></a>
+      <p>A link gets emailed to the entered email address with the token and the email address in the URL. If the email sends successfully, the user's password is cleared and the token is stored in the database.</p>
+      <a href="img/recover2.png" data-lightbox="rec2"><img src="img/recover2.png" alt="Recovery Email Send" class="img-responsive">
+      <p>When the recipient clicks the link, the email address is checked against the token. If they belong to the same user, the user then enters and confirms a new password.</p>
+      <br>
+      
+      <a id="sub3"></a>
+      <h3 class="text-center">Database Construction</h3>
+      <h4 class="text-center">Entity Relationship Diagram of 'studentResponse'</h4>
+      <a href="img/ERDiagram.png" data-lightbox="erd"><img src="img/ERDiagram.png" alt="ER Diagram" class="img-responsive"></a>
+      <br>
+      
+      <a id="sub4"></a>
+      <h3 class="text-center">Secure Classroom Login</h3>
+      <p>One of the largest hurdles we faced in this project was ensuring that only the students that were physically in the classroom could participate in the questions.</p>
+      <p>We wanted a "rolling token" that would be displayed on the instructor's side that the students in the classroom would be required to enter to gain access to the questions. This token would roll over and expire every 20 seconds.</p>
+      <p>Since each user will be connected to the same server, the server time is a constant variable that both machines have access to. I wrote some code to generate a hash based on the server time.</p>
+      <a href="img/timeHash.png" data-lightbox="hash"><img src="img/timeHash.png" alt="Time hash code" class="img-responsive"></a>
+      <p>An AJAX call is then made every 20 seconds to grab the time hash data and display it.</p>
+      <a href="img/AJAX.png" data-lightbox="ajax"><img src="img/AJAX.png" alt="AJAX code" class="img-responsive"></a>
+      <p>The time hash code can be run on both the instructor and the students machine and the student will only need to check against an <code>md5()</code> of the server time, instead of something only the instructor has access to.</p>
+      <h4 class="text-center">GIF of the time hash in action!</h4>
+      <img src="img/timeHash.gif" alt="" class="img-responsive">
     </div>
     
   </div><!-- End container div -->
-  
+
+<script src="js/lightbox.min.js"></script>s
 </body>
 
 </html>
